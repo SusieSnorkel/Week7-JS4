@@ -107,3 +107,27 @@ result = willBuyDrink(true, 9.00);
 console.log(result); // Output: false
 
 // item 13
+/**
+ * This function calculates the area of a room.
+ * It takes two parameters: length and width.
+ * It then multiplies these values to find the area.
+ * 
+ * I created this function to solve the problem of finding
+ * the area of a room that is 10 feet long by 12 feet wide.
+ * This function is useful for determining how much flooring 
+ * material you might need for a room or for other similar calculations.
+ * 
+ * @param {number} length - The length of the room in feet.
+ * @param {number} width - The width of the room in feet.
+ * @returns {number} - The area of the room in square feet.
+ */
+function calculateRoomArea(length, width) {
+    return length * width;
+}
+
+// Example usage:
+const length = 10; // Length of the room in feet
+const width = 12;  // Width of the room in feet
+
+const area = calculateRoomArea(length, width);
+console.log(`The area of the room is ${area} square feet.`);
